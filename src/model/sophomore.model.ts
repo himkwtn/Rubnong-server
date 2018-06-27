@@ -18,4 +18,4 @@ const SophomoreSchema = new Schema({
     taken: Schema.Types.Mixed
 })
 
-export const Sophomore = model<ISophomore>('test', SophomoreSchema)
+export const Sophomore = model<ISophomore>('sophomore', SophomoreSchema)
